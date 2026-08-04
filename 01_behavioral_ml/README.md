@@ -28,7 +28,7 @@ SVM-based classifier for automated NORT (Novel Object Recognition Test) scoring 
 | `Apply-NORT-Classifier.ipynb` | Inference pipeline — applies the trained SVM to novel videos and computes discrimination index per animal |
 | `GUI.py` | Helper GUI for manual annotation review |
 
-For convenience purposes, these functions are bundled as a Python package and are located [nort](https://github.com/llorente-lab/nort).
+For convenience purposes, these functions are bundled as a Python package and are located [here](https://github.com/llorente-lab/nort).
 
 ---
 
