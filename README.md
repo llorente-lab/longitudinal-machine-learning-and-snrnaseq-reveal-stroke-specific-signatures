@@ -1,4 +1,4 @@
-# Welcome to the official repository for the manuscript "Longitudinal Machine Learning and snRNA-Seq Reveal Stroke-Specific Behavioral and Transcriptional Signatures in a Mouse Model of Stroke".
+# Welcome to the official repository for the manuscript "Longitudinal Machine Learning and snRNA-Seq Reveal Stroke-Specific Behavioral and Transcriptional Signatures in a Mouse Model of Stroke"
 
 ## 🔬 Overview & Scientific Rationale
 
@@ -31,4 +31,7 @@ To facilitate reproducibility, this repository is organized into dedicated, self
 
 * `01_behavioral_ml/`: Contains the Motion Sequencing (MoSeq) pipeline and machine learning code to process raw 3D depth video data, train the unsupervised autoregressive hidden Markov model (AR-HMM), extract sub-second motor and cognitive behavioral syllables, and run supervised classifiers to distinguish stroke subtypes (CS vs. WMS) and recovery stages across age and sex.
 * `02_snrna/`: Contains the single-nucleus RNA-sequencing (snRNA-seq) analysis scripts. It handles quality control, integration across cohorts, cell type identification (excitatory/inhibitory neurons, astrocytes, oligodendrocytes, OPCs, microglia/macrophages, and endothelial cells), differential expression testing between acute (7 DPI) and chronic (30 DPI) phases, pathway enrichment, and CellChat-based ligand-receptor interactome modeling.
-* `03_microglia_morphology`: Houses the morphological and skeleton-based analysis scripts for microglia. It processes cell body and arbor metrics (e.g., cell volume, node count, betweenness centrality, skeleton length), conducts PCA to isolate key structural components, and computes comparative statistics between immunocompetent (C57BL/6J) and immunodeficient (NSG) mice. 
+* `03_microglia_morphology`: Houses the morphological and skeleton-based analysis scripts for microglia. It processes cell body and arbor metrics (e.g., cell volume, node count, betweenness centrality, skeleton length), conducts PCA to isolate key structural components, and computes comparative statistics between immunocompetent (C57BL/6J) and immunodeficient (NSG) mice.
+
+## 📖 Citation
+If you use this codebase, analysis pipelines, or datasets in your research, please cite: [citation]
